@@ -1,0 +1,172 @@
+html, body{
+    margin: 0;
+    font-family:'Sarala', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+body{
+    line-height: 28px;
+}
+.container{
+    position: relative;
+    background-image: url("https://faithtabernacle.org.ng/vendor/images/section-bg-101.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 20px 30px;
+    height: 270px;
+    font-weight: bolder;
+}
+.logo{
+    position: absolute;
+    width: 30%;
+}
+.menu{
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
+.logo-text{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+.logo-text a{
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    width: 75px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-size: 10px;
+}
+.menu a:hover{
+    border-bottom: 1px dotted red;
+}
+hr{
+    width: 83%;
+}
+ul{
+    list-style-type: none;
+}
+.menu li a{
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+.menu li, .one li{
+    float: left;
+}.one{
+    position: relative;
+    left: 5.5%;
+}
+
+.one li a{
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    color: black;
+    font-weight:lighter;
+}
+.baba{
+    border-bottom: 3px solid red;
+}
+.second-container{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.pic{
+    position: absolute;
+    left: 10%;
+    
+
+}
+.pic img{
+    width: 500px;
+}
+.name{
+    position: absolute;
+    width: 30%;
+    background-color: rgb(243, 243, 243);
+    right: 8.5%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    text-align: justify;
+    border-radius: 7px;
+}
+h1{
+    text-align: right;
+}
+.third-container{
+    position:relative;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    top: 1400px;
+}
+.box{
+    position: absolute;
+    top: 100%;
+    width: 34%;
+    height: 3600px;
+    background-color:  rgb(243, 243, 243);
+    text-align: justify;
+    padding: 1px 70px 10px 70px;
+    left: 10%;
+}
+.box-two{
+    position: absolute;
+    width: 30%;
+    height: 3600px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    right: 8.5%;
+    border-radius: 5px;
+    padding: 1px 50px 10px 50px;
+}
+.topic{
+    text-align: center;
+    border-bottom: 0.5px solid white;
+    padding: 10px;
+    text-wrap: wrap;
+}
+.foot{
+    position: relative;
+    top: 5000px;
+    color: white;
+    background-color: black;
+    height: 200px;
+    padding-top: 40px;
+}
+.icon{
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    word-spacing: 20px;
+    padding-bottom: 20px;
+}
+.icon a:hover{
+    border-bottom: 1px dotted red;
+}
+.foter-tex{
+    position: absolute;
+    left: 40%;
+}
+.fixed{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.fixed img{
+    width: 60px;
+    padding-left: 20px;
+}
